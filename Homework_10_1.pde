@@ -4,9 +4,9 @@ void setup(){
   z1 = new potato(200,100,90);
   z2 = new potato();
   z3 = new potato();
-  z1.potato();
-  z2.potato();
-  z3.potato();
+  z1.chip();
+  z2.chip();
+  z3.chip();
 }
 class potato{
   potato(float a, float b, float c){
@@ -18,7 +18,7 @@ class potato{
     d = random(100,50);
   }
 float x, y, d;
-void potato (){
+void chip (){
   stroke(0);
   fill(750,105,30);
   ellipse(x+0.2*d,y+0.3*d,0.3*d,0.2*d); // right leg
